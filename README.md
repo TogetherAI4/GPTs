@@ -1,432 +1,433 @@
-# Custom GPTs
+# Benutzerdefinierte GPTs
 
-ChatGPT now supports "Custom GPTs" which package a custom system message, various modalities to supoort it, and pre-filled files for retrieval-augmented generation (RAG).
+ChatGPT unterstützt jetzt "Custom GPTs", die eine benutzerdefinierte Systemnachricht, verschiedene Modalitäten zu ihrer Unterstützung und vorausgefüllte Dateien für die abruferweiterte Generierung (RAG) verpacken.
 
-## RESOURCES AND REFERENCES
+## RESSOURCEN UND REFERENZEN
 
-- Comprehensive prompt engineering guides, tutorials, and case studies, covering fundamental concepts, advanced techniques, and domain-specific applications
-- Curated repositories of high-quality prompts across various tasks, domains, and model architectures, serving as inspiration and starting points for prompt development
-- Prompt engineering communities, forums, and workshops for knowledge sharing, collaboration, and networking with experts and practitioners in the field
-- Research papers, blog posts, and presentations on the latest advancements, methodologies, and findings in prompt engineering and related areas of natural language processing and machine learning
-- Domain-specific resources, including knowledge bases, datasets, ontologies, and best practices, to inform the creation of specialized, context-rich prompts
-- AI ethics frameworks, guidelines, and case studies to ensure the responsible development and deployment of prompts and language models in real-world applications
+- Umfassende prompte technische Leitfäden, Tutorials und Fallstudien, die grundlegende Konzepte, fortgeschrittene Techniken und domänenspezifische Anwendungen abdecken
+- Kuratierte Repositories mit hochwertigen Eingabeaufforderungen über verschiedene Aufgaben, Domänen und Modellarchitekturen hinweg, die als Inspiration und Ausgangspunkt für die Entwicklung von Eingabeaufforderungen dienen
+- Prompte Engineering-Communities, Foren und Workshops für den Wissensaustausch, die Zusammenarbeit und die Vernetzung mit Experten und Praktikern auf diesem Gebiet
+- Forschungsarbeiten, Blogbeiträge und Präsentationen zu den neuesten Fortschritten, Methoden und Erkenntnissen im Prompt Engineering und verwandten Bereichen der Verarbeitung natürlicher Sprache und des maschinellen Lernens
+- Domänenspezifische Ressourcen, einschließlich Wissensdatenbanken, Datensätze, Ontologien und Best Practices, um die Erstellung spezialisierter, kontextreicher Eingabeaufforderungen zu unterstützen
+- KI-Ethik-Frameworks, Richtlinien und Fallstudien, um die verantwortungsvolle Entwicklung und Bereitstellung von Eingabeaufforderungen und Sprachmodellen in realen Anwendungen sicherzustellen
 
-> [!WARNING]
-> "GPTs" use a separate model (`gpt-4-gizmo`) with its own usage limit. That message limit is **shared between all "Custom GPTs"**, and has a 32k context size.
+> [! WARNUNG]
+> "GPTs" verwenden ein separates Modell ('gpt-4-gizmo') mit eigenem Nutzungslimit. Dieses Nachrichtenlimit wird von allen "benutzerdefinierten GPTs"** geteilt und hat eine Kontextgröße von 32 KB.
 >
-> _While editing a Custom GPT, this limit does not apply (as of this commit)._
+> _While Bearbeiten einer benutzerdefinierten GPT gilt dieser Grenzwert nicht (ab diesem Commit)._
 
-## DIRECTORIES
+## VERZEICHNISSE
 
-1. [Easy With AI (All GPTs Directory)](https://www.easywithai.com/all-gpts)
+1. [Einfach mit KI (Verzeichnis aller GPTs)](https://www.easywithai.com/all-gpts)
 2. [ShareGPTs](https://www.sharegpts.net)
 3. [GPTsDex](https://www.gptsdex.com)
 4. [GPTsHunter](https://ai.ls/en/gptshunter/)
-5. [GPT Directory](https://gptdirectory.cc)
+5. [GPT-Verzeichnis](https://gptdirectory.cc)
 6. [JustGPTs](https://justgpts.com)
-7. [GPT Directory](https://gptdirectory.ai)
+7. [GPT-Verzeichnis](https://gptdirectory.ai)
 8. [GPTSTore](https://www.gptstore.ai)
-9. [Awesome GPT Store](https://github.com/sourceduty/Awesome-GPT-Store)
-10. [Sourceduty](https://github.com/sourceduty/ChatGPT)
+9. [Toller GPT-Laden](https://github.com/sourceduty/Awesome-GPT-Store)
+10. [Quellenpflicht](https://github.com/sourceduty/ChatGPT)
 
-Listed below are `250` custom built GPTs sorted into `20` different categories:
+Nachfolgend sind "250" benutzerdefinierte GPTs aufgeführt, die in "20" verschiedene Kategorien eingeteilt sind:
 
 # ChatGPT
 
-[Custom GPT Instructions](https://chat.openai.com/g/g-yAwEVaLkf-custom-gpt-instructions)  
-Custom GPT instruction creation guide.
+[Benutzerdefinierte GPT-Anweisungen] (https://chat.openai.com/g/g-yAwEVaLkf-custom-gpt-instructions)  
+Anleitung zur Erstellung benutzerdefinierter GPT-Anweisungen.
 
-[Custom Response](https://chat.openai.com/g/g-hQUalsSXM-custom-response)  
-Create instructions for customizing ChatGPT's responses.
+[Benutzerdefinierte Antwort] (https://chat.openai.com/g/g-hQUalsSXM-custom-response)  
+Erstellen Sie Anweisungen zum Anpassen der ChatGPT-Antworten.
 
-[Custom GPT Collab](https://chat.openai.com/g/g-IluPscax8-custom-gpt-collab)  
-Combine custom GPTs for collaborations.
+[Benutzerdefinierte GPT-Kollaboration] (https://chat.openai.com/g/g-IluPscax8-custom-gpt-collab)  
+Kombinieren Sie benutzerdefinierte GPTs für Kollaborationen.
 
-[Custom GPT Actions Expert](https://chat.openai.com/g/g-xyr2NrOeq-custom-gpt-actions-expert)  
-Guidance for actions, schema and authentication.
+[Experte für benutzerdefinierte GPT-Aktionen] (https://chat.openai.com/g/g-xyr2NrOeq-custom-gpt-actions-expert)  
+Leitfaden für Aktionen, Schema und Authentifizierung.
 
-<details>
-  <summary>
-    <strong><em>View More...</em></strong>
-  </summary>
+<Details>
+  <Zusammenfassung>
+    <strong><em>Mehr anzeigen... </em></strong>
+  </Zusammenfassung>
 
 <p>
 
-[User Training Quiz](https://chat.openai.com/g/g-j0Orf127K-user-training-quiz)  
-ChatGPT user training.
+[Quiz zur Benutzerschulung] (https://chat.openai.com/g/g-j0Orf127K-user-training-quiz)  
+ChatGPT-Benutzerschulung.
 
-[GPT-Info](https://chat.openai.com/g/g-ntdzmhh6s-gpt-info)  
-Extensive guide for ChatGPT models.
+[GPT-Info] (https://chat.openai.com/g/g-ntdzmhh6s-gpt-info)  
+Ausführlicher Leitfaden für ChatGPT-Modelle.
 
-[GPT Creation Guide](https://chat.openai.com/g/g-GoLkguGSc-gpt-guide)  
-Helpful and informative.
+[Leitfaden zur GPT-Erstellung] (https://chat.openai.com/g/g-GoLkguGSc-gpt-guide)  
+Hilfreich und informativ.
 
 </p>
-</details>
+</Details>
 <br>
 
 # Python
 
-[Python Interface Builder](https://chat.openai.com/g/g-2a5BMlXE9-python-interface-builder)  
-Assistive GUI application creator for Python.
+[Python-Schnittstellen-Builder] (https://chat.openai.com/g/g-2a5BMlXE9-python-interface-builder)  
+Unterstützender GUI-Anwendungsersteller für Python.
 
-[Python Chatbot Builder](https://chat.openai.com/g/g-GC2m3MG5I-python-chatbot-builder)  
-Assistive Python chatbot developer.
+[Python-Chatbot-Builder] (HottiPS://Chat.Openai.Com/G/G-G2M3M3M3M5I-Python-Chatbot-Builder)  
+Unterstützender Python-Chatbot-Entwickler.
 
-[Python Art Builder](https://chat.openai.com/g/g-uxNhtCN0u-python-art-builder)  
-Assistive art image program creator using Python.
+[Python Art Builder] (https://chat.openai.com/g/g-uxNhtCN0u-python-art-builder)  
+Ersteller von Hilfsprogrammen für Kunstbilder mit Python.
 
-[Python Game Builder](https://chat.openai.com/g/g-4hbrahdr4-python-game-builder)  
-Assistive game creator using Pygame, Tkinter and Python.
+[Python-Spiele-Builder] (https://chat.openai.com/g/g-4hbrahdr4-python-game-builder)  
+Unterstützender Spieleersteller mit Pygame, Tkinter und Python.
 
-<details>
-  <summary>
-    <strong><em>View More...</em></strong>
-  </summary>
+<Details>
+  <Zusammenfassung>
+    <strong><em>Mehr anzeigen... </em></strong>
+  </Zusammenfassung>
 
 <p>
-That's all for now, more to come soon...
+Das war's fürs Erste, mehr dazu in Kürze...
 </p>
-</details>
+</Details>
 <br>
 
-# Utilities
+# Dienstprogramme
 
-[Computer Upgrade](https://chat.openai.com/g/g-bSr9Rxt51-computer-upgrade)  
-Desktop and laptop computer hardware upgrade assistant.
+[Computer-Upgrade] (https://chat.openai.com/g/g-bSr9Rxt51-computer-upgrade)  
+Hardware-Upgrade-Assistent für Desktop- und Laptop-Computer.
 
-[Image Comparison](https://chat.openai.com/g/g-4eQMR7Npu-image-comparison)  
-Upload and compare two image files.
+[Bildvergleich] (https://chat.openai.com/g/g-4eQMR7Npu-image-comparison)  
+Laden Sie zwei Bilddateien hoch und vergleichen Sie sie.
 
-[Rename](https://chat.openai.com/g/g-C7Wqfx4P0-rename)  
-Simply rename bulk uploaded files.
+[Umbenennen] (https://chat.openai.com/g/g-C7Wqfx4P0-rename)  
+Benennen Sie einfach massenhochgeladene Dateien um.
 
-[Education Instructor](https://chat.openai.com/g/g-QtdKEsr30-education-instructor)  
-Learn and relearn any grade school subject.
+[Ausbilder] (https://chat.openai.com/g/g-QtdKEsr30-education-instructor)  
+Lernen Sie jedes Grundschulfach und lernen Sie es wieder an.
 
-<details>
-  <summary>
-    <strong><em>View More...</em></strong>
-  </summary>
+<Details>
+  <Zusammenfassung>
+    <strong><em>Mehr anzeigen... </em></strong>
+  </Zusammenfassung>
 
 <p>
 
-[Terminology](https://chat.openai.com/g/g-9CtYMvDJw-terminology)  
-Assistive terminology expert in various fields such as medicine, law, technology, finance, and more.
+[Terminologie] (https://chat.openai.com/g/g-9CtYMvDJw-terminology)  
+Experte für assistive Terminologie in verschiedenen Bereichen wie Medizin, Recht, Technologie, Finanzen und mehr.
 
-[Theory Solver](https://chat.openai.com/g/g-7Xrh3rjDS-theory-solver)  
-Solve any type of theory, including mathematical, social, and economic theories.
+[Theorie-Löser] (https://chat.openai.com/g/g-7Xrh3rjDS-theory-solver)  
+Lösen Sie jede Art von Theorie, einschließlich mathematischer, sozialer und wirtschaftlicher Theorien.
 
-[Narrative Search](https://chat.openai.com/g/g-dkdwRLi8v-narrative-search)  
-Narrate document or image files and search for related information.
+[Narrative Suche] (https://chat.openai.com/g/g-dkdwRLi8v-narrative-search)  
+Erzählen Sie Dokument- oder Bilddateien und suchen Sie nach verwandten Informationen.
 
-[Image Picker](https://chat.openai.com/g/g-U1p1YG09h-image-picker)  
-Compare multiple and bulk images to each other.
+[Bildauswahl] (https://chat.openai.com/g/g-U1p1YG09h-image-picker)  
+Vergleichen Sie mehrere und Massenbilder miteinander.
 
-[Weed](https://chat.openai.com/g/g-RO1rJLxSm-weed)  
-Cannabis planting, growing, and harvesting guide, tailored to your location.
+[Gras] (https://chat.openai.com/g/g-RO1rJLxSm-weed)  
+Leitfaden für den Anbau, den Anbau und die Ernte von Cannabis, der auf Ihren Standort zugeschnitten ist.
 
-[AI-Powered](https://chat.openai.com/g/g-7cvn180Mm-ai-powered)  
-Detailed advice and information for AI-powered personal computers.
+[KI-gestützt] (https://chat.openai.com/g/g-7cvn180Mm-ai-powered)  
+Ausführliche Beratung und Informationen zu KI-gestützten PCs.
 
-[Subreddit Finder](https://chat.openai.com/g/g-dytZgmo1P-subreddit-finder)  
-Search and find the best subreddits for your content.
+[Subreddit-Finder] (https://chat.openai.com/g/g-dytZgmo1P-subreddit-finder)  
+Suchen und finden Sie die besten Subreddits für Ihre Inhalte.
 
-[Hashtag Genius](https://chat.openai.com/g/g-W7Cj0ZQhc-hashtag-genius)  
-Generate hashtags using images and text.
+[Hashtag-Genie] (https://chat.openai.com/g/g-W7Cj0ZQhc-hashtag-genius)  
+Generieren Sie Hashtags mit Bildern und Text.
 
-[Gift Radar](https://chat.openai.com/g/g-DEy4xd8xr-gift-radar)  
-Search and find the perfect gifts.
+[Geschenk-Radar] (https://chat.openai.com/g/g-DEy4xd8xr-gift-radar)  
+Suchen und finden Sie die perfekten Geschenke.
 
-[Search Multiplier](https://chat.openai.com/g/g-ZaCPvqejM-search-multiplier)  
-Expand simple text searches with multiple related search options.
+[Such-Multiplikator] (https://chat.openai.com/g/g-ZaCPvqejM-search-multiplier)  
+Erweitern Sie einfache Textsuchen mit mehreren verwandten Suchoptionen.
 
 </p>
-</details>
+</Details>
 <br>
 
-# Science
+# Wissenschaft
 
-[Physics Simulator](https://chat.openai.com/g/g-jdGow4iV3-physics-simulator)  
-Assistive physics simulation expert.
+[Physik-Simulator] (https://chat.openai.com/g/g-jdGow4iV3-physics-simulator)  
+Experte für Simulation der assistiven Physik.
 
-[Scientific Method Assistant](https://chat.openai.com/g/g-9P8NY6lCl-scientific-method-assistant)  
-Solve science problems and questions.
+[Wissenschaftliche Methodenassistentin] (https://chat.openai.com/g/g-9P8NY6lCl-scientific-method-assistant)  
+Lösen Sie wissenschaftliche Probleme und Fragen.
 
-[Space Simulator](https://chat.openai.com/g/g-HiBjZs8sv-space-simulator)  
-Simulate various aspects of NASA missions, including mission planning, problem-solving during unforeseen events, and post-mission analysis.
+[Weltraum-Simulator] (https://chat.openai.com/g/g-HiBjZs8sv-space-simulator)  
+Simulieren Sie verschiedene Aspekte von NASA-Missionen, einschließlich Missionsplanung, Problemlösung bei unvorhergesehenen Ereignissen und Analyse nach der Mission.
 
-[Insect Identity](https://chat.openai.com/g/g-0SMTWVDrp-insect-identity)  
-Identify insects from images.
+[Insekten-Identität] (https://chat.openai.com/g/g-0SMTWVDrp-insect-identity)  
+Identifizieren Sie Insekten anhand von Bildern.
 
-<details>
-  <summary>
-    <strong><em>View More...</em></strong>
-  </summary>
+<Details>
+  <Zusammenfassung>
+    <strong><em>Mehr anzeigen... </em></strong>
+  </Zusammenfassung>
 
 <p>
 
-[Starship](https://chat.openai.com/g/g-C2JrN7qBV-starship)  
-SpaceX's Starship rocket information.
+[Raumschiff] (https://chat.openai.com/g/g-C2JrN7qBV-starship)  
+Informationen zur Starship-Rakete von SpaceX.
 
-[Chemist](https://chat.openai.com/g/g-pnIVeOtxZ-chemist)  
-Practice computational chemistry and create new chemicals.
+[Chemiker] (https://chat.openai.com/g/g-pnIVeOtxZ-chemist)  
+Üben Sie Computerchemie und kreieren Sie neue Chemikalien.
 
-[Physics](https://chat.openai.com/g/g-duSjyyG2o-physics)  
-Experimental physics assistant and problem solver.
+[Physik] (https://chat.openai.com/g/g-duSjyyG2o-physics)  
+Experimentalphysikalischer Assistent und Problemlöser.
 
-[Electric](https://chat.openai.com/g/g-YaLJCEyMs-electric)  
-Learn and troubleshoot electricity, with clear explanations and examples.
+[Elektrisch] (https://chat.openai.com/g/g-YaLJCEyMs-electric)  
+Lernen Sie Elektrizität kennen und beheben Sie Fehler mit klaren Erklärungen und Beispielen.
 
-[Mechanical Simulator](https://chat.openai.com/g/g-jQ8ono7S9-mechanical-simulator)  
-Mechanical simulation assistant with technical explanations.
+[Mechanischer Simulator] (https://chat.openai.com/g/g-jQ8ono7S9-mechanical-simulator)  
+Mechanischer Simulationsassistent mit technischen Erklärungen.
 
-[Mars](https://chat.openai.com/g/g-aLfw9aF2J-mars)  
-Martian rovers, rockets, habitats, and environment.
+[März] (https://chat.openai.com/g/g-aLfw9aF2J-mars)  
+Mars-Rover, Raketen, Lebensräume und Umwelt.
 
-[Trees](https://chat.openai.com/g/g-jd1xcKJm1-trees)  
-Identify tree leaves and estimate seasonal growth.
+[Bäume] (https://chat.openai.com/g/g-jd1xcKJm1-trees)  
+Identifizieren Sie Baumblätter und schätzen Sie das saisonale Wachstum.
 
 </p>
-</details>
+</Details>
 <br>
 
-# Video & GIF
+# Videos & GIFs
 
-[Video Edit](https://chat.openai.com/g/g-3WU0tMQmV-video-edit)  
-Video titles, credits, effects, and speed changes. Created in preparation for GPT-5.
+[Video bearbeiten] (https://chat.openai.com/g/g-3WU0tMQmV-video-edit)  
+Videotitel, Abspann, Effekte und Geschwindigkeitsänderungen. Erstellt in Vorbereitung auf GPT-5.
 
-[Video Image](https://chat.openai.com/g/g-LNtncGSSz-video-image)  
-Create collage images from video files using DALL-E 3. Created in preparation for GPT-5.
+[Videobild] (https://chat.openai.com/g/g-LNtncGSSz-video-image)  
+Erstellen Sie Collagenbilder aus Videodateien mit DALL-E 3. Erstellt in Vorbereitung auf GPT-5.
 
-[GIF Builder](https://chat.openai.com/g/g-vkuqgJxjC-gif-builder)  
-Create animated GIF images using DALL-E 3.
+[GIF-Erstellung] (https://chat.openai.com/g/g-vkuqgJxjC-gif-builder)  
+Erstellen Sie animierte GIF-Bilder mit DALL-E 3.
 
-[Word-to-GIF](https://chat.openai.com/g/g-1GNmLQpwU-word-to-gif)  
-Word-for-word GIF image generator.
+[Wort-zu-GIF] (https://chat.openai.com/g/g-1GNmLQpwU-word-to-gif)  
+Wort-für-Wort-GIF-Bildgenerator.
 
-<details>
-  <summary>
-    <strong><em>View More...</em></strong>
-  </summary>
+<Details>
+  <Zusammenfassung>
+    <strong><em>Mehr anzeigen... </em></strong>
+  </Zusammenfassung>
 
 <p>
-That's all for now, more to come soon...
+Das war's fürs Erste, mehr dazu in Kürze...
 </p>
-</details>
+</Details>
 <br>
 
 # GitHub
 
-[Repo Card](https://chat.openai.com/g/g-wEMovflCA-repo-card)  
-Create a GitHub repo card banner image.
+[Repo-Karte] (https://chat.openai.com/g/g-wEMovflCA-repo-card)  
+Erstellen Sie ein GitHub-Repositorykarten-Bannerbild.
 
-[Repo Summary](https://chat.openai.com/g/g-yiPyXX9jI-repo-summary)  
-Summarize GitHub repository README files.
+[Zusammenfassung des Repos] (https://chat.openai.com/g/g-yiPyXX9jI-repo-summary)  
+Fassen Sie die README-Dateien des GitHub-Repositorys zusammen.
 
-[README](https://chat.openai.com/g/g-rA63DaENC-readme)  
-Assistive GitHub readme file creator.
+[README] (https://chat.openai.com/g/g-rA63DaENC-readme)  
+Hilfreicher GitHub-Readme-Dateiersteller.
 
-<details>
-  <summary>
-    <strong><em>View More...</em></strong>
-  </summary>
+<Details>
+  <Zusammenfassung>
+    <strong><em>Mehr anzeigen... </em></strong>
+  </Zusammenfassung>
 
 <p>
-That's all for now, more to come soon...
+Das war's fürs Erste, mehr dazu in Kürze...
 </p>
-</details>
+</Details>
 <br>
 
-# Writing & Reading
+# Schreiben & Lesen
 
-[Document Design](https://chat.openai.com/g/g-vmvOjWhHm-document-design)  
-Text document style, format and structure guide.
+[Dokumenten-Design] (https://chat.openai.com/g/g-vmvOjWhHm-document-design)  
+Stil-, Format- und Strukturleitfaden für Textdokumente.
 
-[Document Emulator](https://chat.openai.com/g/g-HetDP3oxF-document-emulator)  
-Emulate and convert the style, format, and structure of documents.
+[Dokument-Emulator] (https://chat.openai.com/g/g-HetDP3oxF-document-emulator)  
+Emulieren und konvertieren Sie den Stil, das Format und die Struktur von Dokumenten.
 
-[Document Update](https://chat.openai.com/g/g-Gk3wDoqRU-document-update)  
-Modernize uploaded document files.
+[Aktualisierung des Dokuments] (https://chat.openai.com/g/g-Gk3wDoqRU-document-update)  
+Modernisieren Sie hochgeladene Dokumentdateien.
 
-[Font Identity](https://chat.openai.com/g/g-H1YnqzAj0-font-identity)  
-Analyze and identify fonts using image files.
+[Schriftart-Identität] (https://chat.openai.com/g/g-H1YnqzAj0-font-identity)  
+Analysieren und identifizieren Sie Schriftarten mithilfe von Bilddateien.
 
-<details>
-  <summary>
-    <strong><em>View More...</em></strong>
-  </summary>
+<Details>
+  <Zusammenfassung>
+    <strong><em>Mehr anzeigen... </em></strong>
+  </Zusammenfassung>
 
 <p>
 
-[Rewrite History](https://chat.openai.com/g/g-PKc9JScH2-rewrite-history)  
-Rewrite human history with predictive outcomes.
+[Geschichte umschreiben] (https://chat.openai.com/g/g-PKc9JScH2-rewrite-history)  
+Schreiben Sie die Menschheitsgeschichte mit prädiktiven Ergebnissen neu.
 
-[Text Picker](https://chat.openai.com/g/g-mmF6dbBeb-text-picker)  
-Compare multiple and bulk text files to each other.
+[Textauswahl] (https://chat.openai.com/g/g-mmF6dbBeb-text-picker)  
+Vergleichen Sie mehrere Textdateien und Massentextdateien miteinander.
 
-[Document Fusion](https://chat.openai.com/g/g-KfDrCWbYq-document-fusion)  
-Paragraph-by-paragraph document merging and mixing assistant.
+[Dokumenten-Fusion] (https://chat.openai.com/g/g-KfDrCWbYq-document-fusion)  
+Absatzweiser Assistent zum Zusammenführen und Mischen von Dokumenten.
 
-[Text Templates](https://chat.openai.com/g/g-GsTxQDRxX-text-templates)  
-Editable premade .txt templates.
+[Textvorlagen] (https://chat.openai.com/g/g-GsTxQDRxX-text-templates)  
+Bearbeitbare vorgefertigte .txt Vorlagen.
 
-[Report](https://chat.openai.com/g/g-esTGrrxjA-report)  
-Create any type of report.
+[Bericht] (https://chat.openai.com/g/g-esTGrrxjA-report)  
+Erstellen Sie jede Art von Bericht.
 
-[Movie Developer](https://chat.openai.com/g/g-GKuoUegIF-movie-developer)  
-Assistive movie idea creator, script writer and screenplay planner.
+[Filmentwickler] (https://chat.openai.com/g/g-GKuoUegIF-movie-developer)  
+Unterstützender Filmideen-Ersteller, Drehbuchautor und Drehbuchplaner.
 
-[✦⊱𝒟𝑒𝒸𝑜𝓇𝒶𝓉𝒾𝓋𝑒 𝒯𝑒𝓍𝓉⊰✦](https://chat.openai.com/g/g-Q71P7xcOG-)  
-Convert plain text to artistic ASCII characters.
+[✦⊱Dekorativer Text⊰✦](https://chat.openai.com/g/g-Q71P7xcOG-)  
+Konvertieren Sie einfachen Text in künstlerische ASCII-Zeichen.
 
-[Text Feedback](https://chat.openai.com/g/g-RDhT1E3g9-text-feedback)  
-Analyze documents, lyrics, scripts and conversations with multiple opinions.
+[Text-Feedback] (https://chat.openai.com/g/g-RDhT1E3g9-text-feedback)  
+Analysiere Dokumente, Texte, Skripte und Konversationen mit mehreren Meinungen.
 
-[Narrated Images](https://chat.openai.com/g/g-rI4XBdeNB-narrated-images)  
-Narrate images and create short visual stories.
+[Kommentierte Bilder] (https://chat.openai.com/g/g-rI4XBdeNB-narrated-images)  
+Erzählen Sie Bilder und erstellen Sie kurze visuelle Geschichten.
 
-[Plain Text Guide](https://chat.openai.com/g/g-63ldbtCMe-plain-text-guide)  
-Plain text organization guide.
+[Klartext-Anleitung] (https://chat.openai.com/g/g-63ldbtCMe-plain-text-guide)  
+Leitfaden zur Organisation im Klartext.
 
-[Compare Documents](https://chat.openai.com/g/g-zUfIyG8eY-compare-documents)  
-Compare paragraphs and documents to find the differences.
+[Dokumente vergleichen] (https://chat.openai.com/g/g-zUfIyG8eY-compare-documents)  
+Vergleichen Sie Absätze und Dokumente, um die Unterschiede zu finden.
 
-[Open Library Expert](https://chat.openai.com/g/g-dhqKoecAp-open-library-expert)  
-Search for books in the Open Library.
+[Open Library Experte] (https://chat.openai.com/g/g-dhqKoecAp-open-library-expert)  
+Suchen Sie in der Open Library nach Büchern.
 
-[Dictionary Creator](https://chat.openai.com/g/g-eFLhLRqRy-dictionary-creator)  
-Create dictionaries in various order types, such as Alphabetical, Prioritized, Hierarchical, and more.
+[Wörterbuch-Ersteller] (https://chat.openai.com/g/g-eFLhLRqRy-dictionary-creator)  
+Erstellen Sie Wörterbücher in verschiedenen Reihenfolgetypen, z. B. Alphabetisch, Priorisiert, Hierarchisch und mehr.
 
-[Quotes & Clips](https://chat.openai.com/g/g-WIzvJxZqt-quotes-clips)  
-Create quotes and take portions from text documents.
+[Zitate & Clips] (https://chat.openai.com/g/g-WIzvJxZqt-quotes-clips)  
+Erstellen Sie Angebote und nehmen Sie Teile aus Textdokumenten.
 
-[Truth Purifier](https://chat.openai.com/g/g-ra1lMjzN8-truth-purifier)  
-Unbiased disinformation analyzer.
+[Wahrheitsreiniger] (https://chat.openai.com/g/g-ra1lMjzN8-truth-purifier)  
+Unvoreingenommener Desinformationsanalysator.
 
-[Smart Notes](https://chat.openai.com/g/g-VBafvJ21q-smart-notes)  
-Intelligent note recording assistant.
+[Intelligente Notizen] (https://chat.openai.com/g/g-VBafvJ21q-smart-notes)  
+Intelligenter Notizaufzeichnungsassistent.
 
 </p>
-</details>
+</Details>
 <br>
 
-# Social
+# Soziales
 
-[Shoutouts](https://chat.openai.com/g/g-BRN5AXPbf-shoutouts)  
-Promotional business shoutouts for x.com.
+[Grüße] (https://chat.openai.com/g/g-BRN5AXPbf-shoutouts)  
+Werbe-Business-Shoutouts für x.com.
 
-[Formal](https://chat.openai.com/g/g-cEoMR3lVm-formal)  
-Assistive formal etiquette guide.
+[Formell] (https://chat.openai.com/g/g-cEoMR3lVm-formal)  
+Unterstützender formaler Etikettenleitfaden.
 
-[Personality](https://chat.openai.com/g/g-SjVEuD3eZ-personality)  
-Determine and define your personal identity.
+[Persönlichkeit] (https://chat.openai.com/g/g-SjVEuD3eZ-personality)  
+Bestimmen und definieren Sie Ihre persönliche Identität.
 
-[Commenter](https://chat.openai.com/g/g-I5DgUS675-commenter)  
-Create comments and comment replies for Facebook, Instagram, X and more.
+[Kommentator] (https://chat.openai.com/g/g-I5DgUS675-commenter)  
+Erstellen Sie Kommentare und Kommentarantworten für Facebook, Instagram, X und mehr.
 
-<details>
-  <summary>
-    <strong><em>View More...</em></strong>
-  </summary>
+<Details>
+  <Zusammenfassung>
+    <strong><em>Mehr anzeigen... </em></strong>
+  </Zusammenfassung>
 
 <p>
-That's all for now, more to come soon...
+Das war's fürs Erste, mehr dazu in Kürze...
 </p>
-</details>
+</Details>
 <br>
 
-# Business
+# Geschäft
 
-[Custom GPT Business](https://chat.openai.com/g/g-k8Ghxlj6V-custom-gpt-business)  
-Assistive custom GPT business communication guide.
+[Benutzerdefiniertes GPT-Geschäft] (https://chat.openai.com/g/g-k8Ghxlj6V-custom-gpt-business)  
+Unterstützender benutzerdefinierter GPT-Leitfaden für die Geschäftskommunikation.
 
-[Sales Pitch](https://chat.openai.com/g/g-JyOxAFTUE-sales-pitch)  
-Develop and sell professional sales pitches.
+[Verkaufsgespräch] (https://chat.openai.com/g/g-JyOxAFTUE-sales-pitch)  
+Entwickeln und verkaufen Sie professionelle Verkaufsgespräche.
 
-[Business Builder](https://chat.openai.com/g/g-cSUIqfHm9-business-builder)  
-Assistive business development, guidance and growth.
+[Geschäftsaufbau] (https://chat.openai.com/g/g-cSUIqfHm9-business-builder)  
+Unterstützende Geschäftsentwicklung, Anleitung und Wachstum.
 
-[Professional Upgrade](https://chat.openai.com/g/g-Rgeiqn3Ga-professional-upgrade)  
-Career guidance and simulation for professional growth.
+[Professionelles Upgrade] (https://chat.openai.com/g/g-Rgeiqn3Ga-professional-upgrade)  
+Karriereberatung und Simulation für berufliches Wachstum.
 
-<details>
-  <summary>
-    <strong><em>View More...</em></strong>
-  </summary>
-
-<p>
-
-[Faultfinder](https://chat.openai.com/g/g-q9J2a3125-faultfinder)  
-Tailored criticism for professional advice.
-
-[Standard Industry](https://chat.openai.com/g/g-u8G59DH4i-standard-industry)  
-Compare a business to it's industry competitors and leaders.
-
-</p>
-</details>
-
-## Art & Design
-
-[Fabric](https://chat.openai.com/g/g-29mQRQys4-fabric)  
-Identify fabrics from images and find optimal fabric for projects or products.
-
-[Design](https://chat.openai.com/g/g-t0pnzqIVW-design)  
-Learn graphic design, web design, product design, and more.
-
-[Concept Design](https://chat.openai.com/g/g-JAsawu1Lv-concept-design)  
-3D model concept image creator using DALL-E 3.
-
-[Image Psychology](https://chat.openai.com/g/g-iTZm6rqFR-image-psychology)  
-Analyze any image using visual psychology.
-
-<details>
-  <summary>
-    <strong><em>View More...</em></strong>
-  </summary>
+<Details>
+  <Zusammenfassung>
+    <strong><em>Mehr anzeigen... </em></strong>
+  </Zusammenfassung>
 
 <p>
 
-[Pixel Squares](https://chat.openai.com/g/g-FuiPiyk3n-pixel-squares)  
-Create pixel art images.
+[Faultfinder] (https://chat.openai.com/g/g-q9J2a3125-faultfinder)  
+Maßgeschneiderte Kritik für professionelle Beratung.
 
-[Generated Art](https://chat.openai.com/g/g-yM88gxV4t-generated-art)  
-Generative art image creator.
-
-[Design Analysis](https://chat.openai.com/g/g-AtO8UJfQV-design-analysis)  
-Visual design tool.
-
-[Creative Competitor](https://chat.openai.com/g/g-QrvZzVunC-creative-competitor)  
-Calls for entry, contests and competitions for creatives.
-
-[Rebrand](https://chat.openai.com/g/g-GrLJN0Kqu-rebrand)  
-Create conceptual rebranded product images.
-
-[Image Palette](https://chat.openai.com/g/g-ifho2QQB0-image-palette)  
-Generate colour palettes from images.
-
-[Design Collab](https://chat.openai.com/g/g-lwdIgFWps-design-collab)  
-Extensive design collaboration guide.
-
-[Image Collage](https://chat.openai.com/g/g-UaXXt6DdU-image-collage)  
-Upload your images and create a collage.
-
-[ASCII Text Art](https://chat.openai.com/g/g-G7eF51owY-ascii-text-art)  
-Convert text into creative ASCII art.
+[Standardindustrie] (https://chat.openai.com/g/g-u8G59DH4i-standard-industry)  
+Vergleichen Sie ein Unternehmen mit seinen Wettbewerbern und Marktführern in der Branche.
 
 </p>
-</details>
+</Details>
+
+## Kunst & Design
+
+[Stoff] (https://chat.openai.com/g/g-29mQRQys4-fabric)  
+Identifizieren Sie Stoffe anhand von Bildern und finden Sie optimale Stoffe für Projekte oder Produkte.
+
+[Entwurf] (https://chat.openai.com/g/g-t0pnzqIVW-design)  
+Lernen Sie Grafikdesign, Webdesign, Produktdesign und mehr.
+
+[Konzept-Design] (https://chat.openai.com/g/g-JAsawu1Lv-concept-design)  
+3D-Modellkonzeptbild-Ersteller mit DALL-E 3.
+
+[Bildpsychologie] (https://chat.openai.com/g/g-iTZm6rqFR-image-psychology)  
+Analysieren Sie jedes Bild mit visueller Psychologie.
+
+<Details>
+  <Zusammenfassung>
+    <strong><em>Mehr anzeigen... </em></strong>
+  </Zusammenfassung>
+
+<p>
+
+[Pixel-Quadrate] (https://chat.openai.com/g/g-FuiPiyk3n-pixel-squares)  
+Erstellen Sie Pixel-Art-Bilder.
+
+[Generierte Kunst] (https://chat.openai.com/g/g-yM88gxV4t-generated-art)  
+Generativer Kunstbildersteller.
+
+[Design-Analyse] (https://chat.openai.com/g/g-AtO8UJfQV-design-analysis)  
+Visuelles Design-Tool.
+
+[Kreativer Konkurrent] (https://chat.openai.com/g/g-QrvZzVunC-creative-competitor)  
+Ausschreibungen, Wettbewerbe und Wettbewerbe für Kreative.
+
+[Umbenennen] (https://chat.openai.com/g/g-GrLJN0Kqu-rebrand)  
+Erstellen Sie konzeptionelle, umbenannte Produktbilder.
+
+[Bildpalette] (https://chat.openai.com/g/g-ifho2QQB0-image-palette)  
+Generieren Sie Farbpaletten aus Bildern.
+
+[Design-Kollaboration] (https://chat.openai.com/g/g-lwdIgFWps-design-collab)  
+Umfangreicher Leitfaden für die Zusammenarbeit bei der Konstruktion.
+
+[Bild-Collage] (https://chat.openai.com/g/g-UaXXt6DdU-image-collage)  
+Laden Sie Ihre Bilder hoch und erstellen Sie eine Collage.
+
+[ASCII-Textkunst] (https://chat.openai.com/g/g-G7eF51owY-ascii-text-art)  
+Konvertieren Sie Text in kreative ASCII-Grafiken.
+
+</p>
+</Details>
 
 ---
 
-### Related Links
+### Verwandte Links
 
-[Awesome GPT Store](https://github.com/sourceduty/Awesome-GPT-Store)
+[Fantastischer GPT-Laden] (https://github.com/sourceduty/Awesome-GPT-Store)
 
-[OpenAI Discord](https://discord.com/invite/openai)
+[OpenAI-Zwietracht] (https://discord.com/invite/openai)
 
-[File Uploads FAQ](https://help.openai.com/en/articles/8555545-file-uploads-faq)
+[FAQ zum Hochladen von Dateien] (https://help.openai.com/en/articles/8555545-file-uploads-faq)
 
-[Custom GPT Directories](https://github.com/sourceduty/Custom_GPTs)
+[Benutzerdefinierte GPT-Verzeichnisse] (https://github.com/sourceduty/Custom_GPTs)
 
-[List the ChatGPT accounts who have published the most custom GPTs](https://chat.openai.com/share/930c6a8d-351c-4025-9355-60f2d4ece377)
+[Listen Sie die ChatGPT-Konten auf, die die meisten benutzerdefinierten GPTs veröffentlicht haben] (https://chat.openai.com/share/930c6a8d-351c-4025-9355-60f2d4ece377)
+
